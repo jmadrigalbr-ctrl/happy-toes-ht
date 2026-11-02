@@ -1,0 +1,15 @@
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "happy_toes_ht"
+authors = [{ name = "Happy Toes", email = "sistemas1@happy-toes.net" }]
+description = "Personalizaciones del ERP de Happy Toes sobre Frappe/Healthcare"
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+dependencies = []
+
+[tool.flit.module]
+name = "happy_toes_ht"
