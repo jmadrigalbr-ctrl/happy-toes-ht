@@ -13,3 +13,6 @@ dependencies = []
 
 [tool.flit.module]
 name = "happy_toes_ht"
+
+[tool.bench.frappe-dependencies]
+frappe = ">=16.0.0,<17.0.0"
